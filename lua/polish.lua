@@ -17,10 +17,6 @@
 -- },
 -- }
 
--- Markdown preview
-vim.g.mkdp_auto_start = 1 -- ファイルを開いたときに自動的にプレビューを開始
-vim.g.mkdp_auto_close = 1 -- バッファを離れたときにプレビューを自動的に閉じる
-
 -- カーソルがターミナルバッファに入った際に自動的に入力モードにする
 vim.api.nvim_create_autocmd("BufEnter", {
   pattern = "*",
